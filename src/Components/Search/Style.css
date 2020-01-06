@@ -1,0 +1,96 @@
+.heading {
+	font-size: 50px; 
+	padding: 5px;
+	color: #444;
+    text-align: center;
+    width : 50%;
+    display: inline-block;
+    color : white;
+}
+/*Container*/
+.container {
+    /*margin: 36px auto;*/
+    /*max-width: 800px;*/
+	width: 100%;
+    background-color: rgb(150, 27, 27);
+    
+    
+}
+.search-label {
+    position: relative;
+    bottom: 20px;
+    width: 50% ; 
+    
+}
+.container input {
+	width: 25%;
+	padding: 5px;
+	font-size: 25px;
+	font-style: italic;
+	color: #444;
+	box-sizing: border-box;
+    outline: none;
+    border-radius: 10px;
+    border : 2px solid grey;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.search-icon {
+	position: absolute;
+	top: -10px;
+	font-size: 24px;
+	color: #555;
+	right: 18px;
+}
+.sub{
+    width: 40%;
+
+}
+.results-container{
+    width: 80%;
+    position: absolute;
+    left: 100px;
+    top : 25px;
+    border : 0.5px solid grey;
+    border-radius: 5px;
+}
+
+.imagewrapper img{
+    width: 45%;
+    height:45%;
+}
+
+.subcontainer h2{
+     font-family: Roboto;
+}
+.subcontainer p{
+    font-style: italic;
+}
+.subcontainer{  
+    
+    margin:5px;
+    padding:5px;
+    background-color: rgb(240, 236, 236);
+    border-radius:5px;
+}
+.subcontainer:hover{
+    background-color: rgb(218, 213, 207);
+    box-shadow: 2px 2px rgb(184, 177, 177);
+}
+.click-container{
+    width: 50%;
+    position: absolute;
+    left: 100px;
+    top : 25px;
+    background-color: whitesmoke;
+    border : 0.5px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+.clicksubcontainer{
+    background-color: rgb(240, 236, 236);
+}
+.clicksubcontainer:hover{
+    background-color: rgb(218, 213, 207);
+    box-shadow: 2px 2px rgb(184, 177, 177);
+}
